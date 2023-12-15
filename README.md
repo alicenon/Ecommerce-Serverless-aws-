@@ -5,8 +5,8 @@ Esperando una descripcion
 indices
 ## [1. Lets start first with cloning the repository](#1-let-start-first-with-cloning-the-repository)
 ## [2. To deploy run the following commands](#2-to-deploy-run-the-following-commands)
-## [3. BACKEND part](#%EF%B8%8F-backend-part)
-## [4. FRONTEND](#-frontend-part)
+## [3. BACKEND part](#%EF%B8%8F-backend)
+## [4. FRONTEND](#-frontend)
 
 
 ![arquitectura](https://epsagon.awsworkshop.io/images/welcome/architecture.png)
@@ -104,5 +104,8 @@ Type in the region as the same `<REGION>` you’ve used before
 ## visualizalo!
 
 [![web-site](https://img.shields.io/badge/ver-sitio_web-pink?style=for-the-badge&logo=github&logoColor=white)](http://catalog-shop-dev-serverlessdeploymentbucket-0hdoeuwqnwkk.s3-website-us-east-1.amazonaws.com/)
+
+
+
 
 
