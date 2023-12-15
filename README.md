@@ -4,8 +4,8 @@
 Esperando una descripcion
 indices
 ## [1. Lets start first with cloning the repository](#1-let-start-first-with-cloning-the-repository)
-## [2. Let start first with cloning the repository](#2-let-start-first-with-cloning-the-repository)
-## [3. Uso](#3-uso)
+## [2. To deploy run the following commands](#2-to-deploy-run-the-following-commands)
+## [3. BACKEND part](#3-backend-part)
 
 ![arquitectura](https://epsagon.awsworkshop.io/images/welcome/architecture.png)
 
@@ -33,7 +33,7 @@ cd retail-store-workshop
 *antes que nada agregar la lib en <requiriments.txt>  `urllib3==1.26.6` es una biblioteca de Python utilizada comúnmente para realizar solicitudes HTTP.*
 ## ⚙️ *BACKEND part*
 
-2. To deploy run the following commands. Make sure to replace `<REGION>` with your desired region. In our example we are using ```us-east-1```.
+## 2. To deploy run the following commands. Make sure to replace `<REGION>` with your desired region. In our example we are using ```us-east-1```.
 
 ```plaintext
 us-east-1
