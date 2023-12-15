@@ -6,6 +6,8 @@ indices
 ## [1. Lets start first with cloning the repository](#1-let-start-first-with-cloning-the-repository)
 ## [2. To deploy run the following commands](#2-to-deploy-run-the-following-commands)
 ## [3. BACKEND part](#%EF%B8%8F-backend-part)
+## [4. FRONTEND](#-frontend-part)
+
 
 ![arquitectura](https://epsagon.awsworkshop.io/images/welcome/architecture.png)
 
@@ -31,7 +33,7 @@ git clone https://github.com/epsagon/retail-store-workshop.git
 cd retail-store-workshop  
 ```
 *antes que nada agregar la lib en <requiriments.txt>  `urllib3==1.26.6` es una biblioteca de Python utilizada comúnmente para realizar solicitudes HTTP.*
-## ⚙️ *BACKEND part*
+## ⚙️ *BACKEND*
 
 ## 2. To deploy run the following commands. Make sure to replace `<REGION>` with your desired region. In our example we are using ```us-east-1```.
 
@@ -59,7 +61,7 @@ python update_db.py 4 <REGION>
 ```
 `update_db.py` script puts items (in this case 4) into our DynamoDB. Make sure to use the same region as before.
 
-## 🔷 *FRONTEND part*
+## 🔷 *FRONTEND*
 
 3. "Change to the 'frontend' directory, globally install Yarn and 'scottyjs', then use Yarn to install the frontend project dependencies."
 ```bash 
@@ -91,15 +93,16 @@ Instead of `<BUCKET_NAME>` choose a unique name for the S3 bucket that will be c
 Type in the region as the same `<REGION>` you’ve used before
 
 ## 🛠 Herramientas
-[![chartjs](https://img.shields.io/badge/Chart.js-FE777B?style=for-the-badge&logo=chart.js&logoColor=white)](https://www.chartjs.org/docs/latest/)
-[![BootStrap](https://img.shields.io/badge/Vue.js-42B883?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
-[![BootStrap](https://img.shields.io/badge/BootStrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![Scotty.js](https://img.shields.io/badge/Scotty.js-blue?style=for-the-badge&logo=scotty)](https://github.com/stojanovic/scottyjs)
+[![Scotty.js](https://img.shields.io/badge/Scotty.js-purple?style=for-the-badge&logo=scotty)](https://link_to_your_project)
+[![Scotty.js](https://img.shields.io/badge/Scotty.js-red?style=for-the-badge&logo=scotty)](https://github.com/stojanovic/scottyjs)
+
+
+[![scottyjs](https://img.shields.io/badge/scotty.js%20?style=red)](https://github.com/stojanovic/scottyjs)
 
 
 ## visualizalo!
 
-[![web-site](https://img.shields.io/badge/ver-sitio_web-pink?style=for-the-badge&logo=github&logoColor=white)](https://alicenon.github.io/mini-crud-cat/)
+[![web-site](https://img.shields.io/badge/ver-sitio_web-pink?style=for-the-badge&logo=github&logoColor=white)](http://catalog-shop-dev-serverlessdeploymentbucket-0hdoeuwqnwkk.s3-website-us-east-1.amazonaws.com/)
 
 
-
-[![Logo](https://alicenon.github.io/portafolio/assets/img/portfolio/crud-cat-1.png)](https://alicenon.github.io/mini-crud-cat/)
