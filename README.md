@@ -5,23 +5,16 @@ Esperando una descripcion
 indices
 ## [1. Lets start first with cloning the repository](#1-let-start-first-with-cloning-the-repository)
 ## [2. To deploy run the following commands](#2-to-deploy-run-the-following-commands)
-## [3. BACKEND part](#%EF%B8%8F-backend)
+## [3. BACKEND](#%EF%B8%8F-backend)
 ## [4. FRONTEND](#-frontend)
 
+
+# Application architecture
 
 ![arquitectura](https://epsagon.awsworkshop.io/images/welcome/architecture.png)
 
 
-#*********************************************************************
 
-
-
-# Other tittle
-sample text............
-
-............................................................
-............................................................
-.....................................................
 
 
 ## Installing/Deploying the retail store
@@ -93,17 +86,21 @@ Instead of `<BUCKET_NAME>` choose a unique name for the S3 bucket that will be c
 Type in the region as the same `<REGION>` you’ve used before
 
 ## 🛠 Herramientas
-[![Scotty.js](https://img.shields.io/badge/Scotty.js-blue?style=for-the-badge&logo=scotty)](https://github.com/stojanovic/scottyjs)
-[![Scotty.js](https://img.shields.io/badge/Scotty.js-purple?style=for-the-badge&logo=scotty)](https://link_to_your_project)
-[![Scotty.js](https://img.shields.io/badge/Scotty.js-red?style=for-the-badge&logo=scotty)](https://github.com/stojanovic/scottyjs)
+[![Amazon CloudFront](https://img.shields.io/badge/Amazon_CloudFront-FF9900?style=for-the-badge&logo=amazon-cloudfront)](https://aws.amazon.com/cloudfront/)
+[![Amazon S3](https://img.shields.io/badge/Amazon_S3-FF9900?style=for-the-badge&logo=amazon-s3)](https://aws.amazon.com/s3/)
+[![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=amazon-aws)](https://aws.amazon.com/lambda/)
 
 
-[![scottyjs](https://img.shields.io/badge/scotty.js%20?style=red)](https://github.com/stojanovic/scottyjs)
 
 
-## visualizalo!
 
-[![web-site](https://img.shields.io/badge/ver-sitio_web-pink?style=for-the-badge&logo=github&logoColor=white)](http://catalog-shop-dev-serverlessdeploymentbucket-0hdoeuwqnwkk.s3-website-us-east-1.amazonaws.com/)
+
+## visualizalo la ecommerce con Amazon CloudFront para entregar el contenido con menor latencia!
+
+[![web-site](https://img.shields.io/badge/ver_sitio_web-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=24292E&logoWidth=40&logoHeight=40)](https://dclqwvpm3pyr3.cloudfront.net)
+
+
+
 
 
 
