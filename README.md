@@ -3,7 +3,7 @@
 
 an example of how to build and run applications without having to manage infrastructure (Serverless Architecture) in the AWS cloud
 
-indices
+
 ## [1. Lets start first with cloning the repository](#1-let-start-first-with-cloning-the-repository)
 ## [2. To deploy run the following commands](#2-to-deploy-run-the-following-commands)
 ## [3. BACKEND](#%EF%B8%8F-backend)
