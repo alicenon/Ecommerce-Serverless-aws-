@@ -1,7 +1,7 @@
 # Ecommerce-Serverless-aws-
 
 
-un ejemplo sobre como crear y ejecutar aplicaciones sin tener que administrar infraestructura (Arquitectura Serverless) en la nube de AWS
+an example of how to build and run applications without having to manage infrastructure (Serverless Architecture) in the AWS cloud
 
 indices
 ## [1. Lets start first with cloning the repository](#1-let-start-first-with-cloning-the-repository)
@@ -26,7 +26,7 @@ indices
 git clone https://github.com/epsagon/retail-store-workshop.git
 cd retail-store-workshop  
 ```
-*antes que nada agregar la lib en <requiriments.txt>  `urllib3==1.26.6` es una biblioteca de Python utilizada comúnmente para realizar solicitudes HTTP.*
+*first of all add the lib in <requiriments.txt> `urllib3==1.26.6` is a Python library commonly used to make HTTP requests.*
 ## ⚙️ *BACKEND*
 
 ## 2. To deploy run the following commands. Make sure to replace `<REGION>` with your desired region. In our example we are using ```us-east-1```.
@@ -44,7 +44,7 @@ sls deploy --region <REGION>
 ```
 Upon successful deployment, we can see the following output:
 ___
-*Note: si hay algun error no se preocupe, intente modificando la linea 15 del Serverless.yml. Verifique que tenga   `runtime: python3.9` y no <runtime: python3.7>*
+*Note: If there are any errors, don't worry, try modifying line 15 of Serverless.yml. Check that you have `runtime: python3.9` and not <runtime: python3.7> or whatever you have set*
 
 ![imagen2](https://epsagon.awsworkshop.io/images/prerequisites/sls_deploy.png)
 
@@ -76,7 +76,7 @@ npm run build
 scotty --nocdn --spa --source ./build -b <BUCKET_NAME> -r <REGION>
 
 ```
-en este caso usamos
+in this case we use
 ```bash 
 npm run build
 aws s3 cp ./build s3://catalog-shop-dev-serverlessdeploymentbucket-ijfqa9bzlgwu --recursive
@@ -86,7 +86,7 @@ Instead of `<BUCKET_NAME>` choose a unique name for the S3 bucket that will be c
 
 Type in the region as the same `<REGION>` you’ve used before
 
-## 🛠 Herramientas
+## 🛠 Tools
 [![Amazon CloudFront](https://img.shields.io/badge/Amazon_CloudFront-FF9900?style=for-the-badge&logo=amazon-cloudfront)](https://aws.amazon.com/cloudfront/)
 [![Amazon S3](https://img.shields.io/badge/Amazon_S3-FF9900?style=for-the-badge&logo=amazon-s3)](https://aws.amazon.com/s3/)
 [![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=amazon-aws)](https://aws.amazon.com/lambda/)
@@ -96,7 +96,7 @@ Type in the region as the same `<REGION>` you’ve used before
 
 
 
-## visualizalo la ecommerce con Amazon CloudFront para entregar el contenido con menor latencia!
+## visualize ecommerce with Amazon CloudFront to deliver content with lower latency!
 
 [![web-site](https://img.shields.io/badge/ver_sitio_web-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=24292E&logoWidth=40&logoHeight=40)](https://dclqwvpm3pyr3.cloudfront.net)
 
