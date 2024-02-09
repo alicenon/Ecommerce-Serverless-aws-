@@ -1,7 +1,8 @@
 # Ecommerce-Serverless-aws-
 
 
-Esperando una descripcion
+un ejemplo sobre como crear y ejecutar aplicaciones sin tener que administrar infraestructura (Arquitectura Serverless) en la nube de AWS
+
 indices
 ## [1. Lets start first with cloning the repository](#1-let-start-first-with-cloning-the-repository)
 ## [2. To deploy run the following commands](#2-to-deploy-run-the-following-commands)
