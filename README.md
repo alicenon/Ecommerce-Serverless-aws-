@@ -1,6 +1,4 @@
-# Ecommerce-Serverless-aws-
-
-
+# Ecommerce-Serverless-aws
 an example of how to build and run applications without having to manage infrastructure (Serverless Architecture) in the AWS cloud
 
 
